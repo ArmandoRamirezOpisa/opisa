@@ -1,0 +1,18 @@
+body{height:100%;background-color:#B5A98E;font-size:13px;font-family:verdana ,arial;}
+a{text-decoration:none;}
+#cont{width:900px;height:600px;position:relative;margin:0 auto;}
+	#enc{width:900px;height:163px;float:left;background-image:url("../img/balog.png");position:relative}
+		#logoBK{width:200px;height:60px;position:absolute;text-align:center;top:5px;left:750px;z-index:200;}
+		#infoP{position:absolute;width:477px;height:55px;background:#000;top:20px;left:390px;z-index:10;}
+		#infoPS{position:absolute;width:477px;height:53px;padding:0 0 0 3px;top:20px;left:390px;color:#fff;z-index:100;font-size:12px;}
+		#menu{width:700px;height:38px;position:absolute;top:120px;left:200px}
+	#cen{width:900px;height:400px;float:left;position:relative}
+		#marco{position:absolute;width:880px;height:360px;padding:10px;background:#ffffff;top:10px;}
+			#info{width:880px;height:360px;background:#EF9C00;position:relative}
+				#infoDer{width:200px;height:340px;background:#2B282F;position:absolute;top:10px;left:10px;background-image:url("../img/f2.png")}
+				#infoIzq{width:650px;height:340px;background:#2B282F;position:absolute;top:10px;left:220px;background-image:url("../img/f1.png"),color:#fff;}
+	#pie{width:890px;height:35px;padding:2px 5px 0 5px;float:left;position:relative;background-image:url("../img/pie.png");font-size:12px;}
+
+.btn{display:block;text-align:center;width:100px;height:28px;padding:10px 0 0 0;color:#fff;font-weight:bold;background-image:url("../img/btn.png");}
+.btn:hover{color:yellow;font-size:15px;}
+.opaco{filter:alpha(opacity=40);opacity:0.4;}

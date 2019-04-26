@@ -1,0 +1,56 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 19, 2018, 12:25:40 PM
+    Author     : mauro.morales
+*/
+
+
+.navbar-opisa{
+    background: #fff;
+   
+}
+.navbar-nav{
+     font-family: 'Roboto', sans-serif;
+     font-size: 1.3rem;
+}
+
+.jumbotron {
+    background-image: url("http://www.opisa.com/opisa/img/nosotros_int.png");
+    background-color: #541616;
+    margin-bottom: 0;
+    min-height: 50%;
+    height:25rem; 
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.colorOpisa{
+  color:#541616;  
+}
+.gris{
+    background: #979797;
+}
+.quienessomostitle{
+   font-size: 1.9rem;       
+}
+
+.nosotros-titulos{
+   background: #541616; 
+     color:#fff;  
+}
+@media (max-width: 797px) {
+    body { 
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+.container-fluid {
+    padding: 0px;
+}

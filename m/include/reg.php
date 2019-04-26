@@ -1,0 +1,3 @@
+<?php
+	$xajax->registerFunction("valida");
+?>

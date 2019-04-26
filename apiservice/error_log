@@ -1,0 +1,4 @@
+[30-May-2018 13:20:59] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/opisa/public_html/apiservice/application/config/config.php on line 29
+[30-May-2018 13:59:40] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in /home/opisa/public_html/apiservice/application/controllers/ini.php on line 24
+[30-May-2018 13:59:50] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in /home/opisa/public_html/apiservice/application/controllers/ini.php on line 24
+[30-May-2018 15:22:06] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in /home/opisa/public_html/apiservice/application/controllers/ini.php on line 43

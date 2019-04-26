@@ -1,0 +1,48 @@
+body{text-align:center;font-family:verdana;font-size:10px;background-image:url("../img/fondo.png")}
+a{text-decoration:none;}
+#contenedor{width:800px;height:600px;margin:0 auto 0 auto;}
+
+#esp1{width:800px;height:150px;padding:50px 0 0 0;float:left;text-align:center:font-weight:bold;font-size:16px;color:yellow;}
+html<body #esp1{width:800px;height:100px;padding:50px 0 0 0;float:left;text-align:center:font-weight:bold;font-size:16px;color:yellow;}
+#esp2{width:800px;height:300px;float:left;}
+	#esp3{width:200px;height:300px;float:left;}
+	#login{width:400px;height:300px;float:left;}
+		#logo{width:400px;height:100px;padding:9px 0 0 0;background-color:#ffffff;text-align:center;}
+		html<body #logo{width:400px;height:91;px;padding:9px 0 0 0;background-color:#ffffff;text-align:center;}
+		#log_cont{width:400px;height:200px;font-weight:bold;background-image:url('../img/f_login.png');}
+	#esp4{width:200px;height:300px;float:left;}
+#esp5{width:800px;height:150px;float:left;}
+
+.boton{width:200px;height:30px;color:#003399;font-size:14px;font-weight:bold;}
+.inpBox{width:150px;height:20px;text-align:center;font-weight:bold;color:maroon;font-size:10px;}
+.l_form{font-weight:bold;color:#ffffff;font-size:12px;}
+
+#barra_nom{width:800px;height:30px;padding:8px 5px 0 0;text-align:right;background-image:url('../img/f_nom.png');font-weight:bold;color:#ffffff;}
+html<body #barra_nom{width:795px;height:22px;padding:8px 5px 0 0;text-align:right;background-image:url('../img/f_nom.png');font-weight:bold;color:#ffffff;}
+	#salir{width:20%;height:100%;padding:0 0 0 40px;text-align:left;float:left;}
+	.link_salir{color:#ffffff;}
+	.link_salir:hover{font-weight:bold;letter-spacing:2px;}
+	#nombre{width:80%;height:100%;text-align:right;float:left;}
+#msj{width:800px;height:30px;text-align:center;font-size:14px;font-weight:bold;color:yellow;}
+.msjError{text-align:center;font-size:14px;font-weight:bold;color:yellow;}
+#menu{width:800px;height:30px;padding:5px 0 0 0;text-align:center;background-image:url('../img/f_menu.png');float:left;}
+html<body #menu{width:800px;height:25px;padding:5px 0 0 0;text-align:center;background-image:url('../img/f_menu.png');float:left;}
+	.b_menu{width:100px;height:20px;padding:4px 0 0 0;font-size:10px;color:#ffffff;background-image:url('../img/f_boton.png');font-family:helvetica;}
+	html<body .b_menu{width:100px;height:16px;padding:4px 0 0 0;font-size:10px;color:#ffffff;background-image:url('../img/f_boton.png');}
+	.b_menu:hover{letter-spacing:2px;background-image:url('../img/f_boton2.png');}
+
+#d_prin{width:800px;height:510px;float:left;background-image:url('../img/f_conPrin.png')}
+	#menu_cont{width:180px;height:510px;float:left;}
+		#logo_opi{width:180px;height:86px;padding:5px 0 0 5px;float:left;}
+	#cont_ini{width:600px;height:510px;float:left;}
+
+#cont_part{width:600px;height:220px;overflow:auto;}
+.txtForm{font-size:10px;color:maroon;font-weight:bold;}
+.inpForm{font-size:10px;color:blue;width:220px;height:19px;background-color:#FFFFD5;}
+.titForm{font-size:12px;font-weight:bold;background-image:url('../img/f_tit.png');height:15px;color:#FFFFFF;}
+
+#grid_Part{width:600px;height:290px;float:left;}
+.encGrid{font-size:10px;color:#000000;font-weight:bold;text-align:left;width:200px;height:15px;background-image:url('../img/f_encGrid.png')}
+.infGrid{font-size:10px;color:#000000;}
+
+#menu_lat{width:180px;height:424px;background:red;float:left;}
