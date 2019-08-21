@@ -1,9 +1,4 @@
-[15-Aug-2011 06:46:03] PHP Parse error:  syntax error, unexpected '<' in /home/opisa/public_html/index.php on line 2
-[15-Aug-2011 09:49:58] PHP Parse error:  syntax error, unexpected '<' in /home/opisa/public_html/index.php on line 2
-[15-Aug-2011 13:18:29] PHP Parse error:  syntax error, unexpected '<' in /home/opisa/public_html/index.php on line 2
-[15-Aug-2011 13:24:27] PHP Parse error:  syntax error, unexpected '<' in /home/opisa/public_html/index.php on line 2
-[15-Aug-2011 15:55:33] PHP Parse error:  syntax error, unexpected '<' in /home/opisa/public_html/index.php on line 2
-[16-Aug-2011 14:24:28] PHP Parse error:  syntax error, unexpected '<' in /home/opisa/public_html/index.php on line 2
-[19-Aug-2011 15:58:51] PHP Parse error:  syntax error, unexpected '<' in /home/opisa/public_html/index.php on line 2
-[20-Aug-2011 06:19:25] PHP Parse error:  syntax error, unexpected '<' in /home/opisa/public_html/index.php on line 2
-[11-Feb-2019 09:30:59] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home/opisa/public_html/ai-bolit.php on line 2327
+[26-May-2019 15:19:51 UTC] PHP Warning:  include(_contenido/_index1.php): failed to open stream: No such file or directory in /home/opisa/public_html/opisa/_tpl/base.tpl.php on line 36
+[26-May-2019 15:19:51 UTC] PHP Warning:  include(): Failed opening '_contenido/_index1.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/opisa/public_html/opisa/_tpl/base.tpl.php on line 36
+[26-May-2019 15:22:11 UTC] PHP Warning:  include(_contenido/_index.php): failed to open stream: No such file or directory in /home/opisa/public_html/opisa/_tpl/base.tpl.php on line 36
+[26-May-2019 15:22:11 UTC] PHP Warning:  include(): Failed opening '_contenido/_index.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/opisa/public_html/opisa/_tpl/base.tpl.php on line 36

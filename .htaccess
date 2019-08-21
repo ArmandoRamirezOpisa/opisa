@@ -1,13 +1,10 @@
+#AddHandler application/x-httpd-php5 .htm .html
+AddHandler application/x-httpd-php71 .php .htm .html
 
-IndexIgnore .htaccess */.??* *~ *# */HEADER* */README* */_vti*
-
-<Limit GET POST>
-order deny,allow
-deny from all
-allow from all
-</Limit>
-<Limit PUT DELETE>
-order deny,allow
-deny from all
-</Limit>
-AuthName opisa.com
+# ensure www.
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# ensure https
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]

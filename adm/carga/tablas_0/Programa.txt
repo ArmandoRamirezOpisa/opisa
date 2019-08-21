@@ -1,7 +1,0 @@
-3	VENTAS DIVERSAS	PUNTOS	participantes@opisa.com	.00|
-29	B & D	PUNTOS	participantes@opisa.com	.00|
-30	BI-PACCAR	PUNTOS	participantes@opisa.com	.00|
-34	MAS TIENDAS	PUNTOS	participantes@opisa.com	.00|
-35	INTEGRO	PUNTOS	participantes@opisa.com	.00|
-36	Puntos Heinz	PUNTOS	participantes@opisa.com	.00|
-999	PROGRAMA DEMO	PUNTOS	participantes@opisa.com	.00|
