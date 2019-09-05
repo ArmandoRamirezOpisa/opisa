@@ -1,0 +1,49 @@
+.nosotros-info {
+    background: color(color-nosotros);
+    position: relative;
+    &:before {
+        @include circleSection;
+    }
+    &-text {
+        color: color(color-white);
+        font-size: 20px;
+        text-align: center;
+        padding-top: 10px;
+        .text-info {
+            margin: 0 10px;
+        }
+    }
+    .nosotros-opciones {
+        @include systemGrid;
+        grid-template-areas: 'quienes' 'hacemos' 'mision' 'vision' 'organizacion' 'valores';
+        .nosotros-menu {
+            a {
+                color: color(color-white);
+                text-decoration: none;
+                &:hover {
+                    color: color(primary-color);
+                    transition: all 1s ease-in-out;
+                    font-size: 20px;
+                }
+            }
+        }
+        .nosotros-quienes {
+            grid-area: quienes;
+        }
+        .nosotros-hacemos {
+            grid-area: hacemos;
+        }
+        .nosotros-mision {
+            grid-area: mision;
+        }
+        .nosotros-vision {
+            grid-area: vision;
+        }
+        .nosotros-organizacion {
+            grid-area: organizacion;
+        }
+        .nosotros-valores {
+            grid-area: valores;
+        }
+    }
+}

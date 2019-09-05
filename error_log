@@ -1,4 +1,0 @@
-[26-May-2019 15:19:51 UTC] PHP Warning:  include(_contenido/_index1.php): failed to open stream: No such file or directory in /home/opisa/public_html/opisa/_tpl/base.tpl.php on line 36
-[26-May-2019 15:19:51 UTC] PHP Warning:  include(): Failed opening '_contenido/_index1.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/opisa/public_html/opisa/_tpl/base.tpl.php on line 36
-[26-May-2019 15:22:11 UTC] PHP Warning:  include(_contenido/_index.php): failed to open stream: No such file or directory in /home/opisa/public_html/opisa/_tpl/base.tpl.php on line 36
-[26-May-2019 15:22:11 UTC] PHP Warning:  include(): Failed opening '_contenido/_index.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/opisa/public_html/opisa/_tpl/base.tpl.php on line 36

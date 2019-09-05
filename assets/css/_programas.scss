@@ -1,0 +1,60 @@
+.programas-data {
+    position: relative;
+    width: 100%;
+    margin-top: -15px;
+    &:before {
+        @include circleSection;
+    }
+}
+
+.programas-info {
+    background: color(color-programas);
+    margin: 0;
+    position: relative;
+    top: -15px;
+    -webkit-z-index: -3;
+    -moz-z-index: -3;
+    -ms-z-index: -3;
+    -o-z-index: -3;
+    z-index: -3;
+    &:before {
+        content: '';
+        width: 0px;
+        height: 0px;
+        display: inline-block;
+        border-top: 15px solid color(color-white);
+        border-right: 15px solid color(color-programas);
+        border-bottom: 15px solid color(color-programas);
+        border-left: 15px solid color(color-programas);
+        position: absolute;
+        right: 46%;
+        z-index: 3;
+    }
+    .programas-opciones {
+        @include systemGrid;
+        grid-template-areas: 'mercado' 'consumidor' 'productividad' 'fuerza';
+        .programas-menu {
+            a {
+                color: color(color-white);
+                text-decoration: none;
+                &:hover {
+                    color: color(primary-color);
+                    transition: all 1s ease-in-out;
+                    font-size: 20px;
+                }
+            }
+        }
+        .programas-mercado {
+            grid-area: mercado;
+        }
+        .programas-consumidor {
+            grid-area: consumidor;
+        }
+        .programas-productividad {
+            grid-area: productividad;
+        }
+        .programas-fuerza {
+            grid-area: fuerza;
+        }
+    }
+}
