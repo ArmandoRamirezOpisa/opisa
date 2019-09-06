@@ -3,8 +3,8 @@ $device:650px;
 $device2:875px;
 $device3:1024px;
 $device4:1600px;
-@mixin responsive($sz) {
-    @media screen and (min-width:#{$sz}) {
+@mixin responsiveDevice($sizeDevice) {
+    @media screen and (max-width:#{$sizeDevice}) {
         @content;
     }
 }

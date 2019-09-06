@@ -756,4 +756,18 @@ header nav .hide-mobile {
 .footer span {
   color: #ffffff;
 }
+
+/*
+De este punto, se esta aplicando, medias querys para que la pagina web
+sea Responsive. 
+La pagina fue programa como mobile first
+*/
+/* Este media query es para los dispositivos mas pequenos */
+/* Este media query es para los dispositivos de 875 px para arriba */
+/* Este media query es para los dispositivos como una laptop */
+/* Este media query es para los dispositivos como las smart tv */
+/*
+Ya termino todos los medias querys para que la pagina se pueda adaptar en todos
+los dispositivos, si borras algo de esto, la pagina va a perder toda la estructura
+*/
 /*# sourceMappingURL=main.css.map */

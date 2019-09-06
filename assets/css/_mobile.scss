@@ -1,0 +1,31 @@
+/*
+De este punto, se esta aplicando, medias querys para que la pagina web
+sea Responsive. 
+La pagina fue programa como mobile first
+*/
+
+
+/* Este media query es para los dispositivos mas pequenos */
+
+@include responsiveDevice($device) {}
+
+
+/* Este media query es para los dispositivos de 875 px para arriba */
+
+@include responsiveDevice($device2) {}
+
+
+/* Este media query es para los dispositivos como una laptop */
+
+@include responsiveDevice($device3) {}
+
+
+/* Este media query es para los dispositivos como las smart tv */
+
+@include responsiveDevice($device4) {}
+
+
+/*
+Ya termino todos los medias querys para que la pagina se pueda adaptar en todos
+los dispositivos, si borras algo de esto, la pagina va a perder toda la estructura
+*/
