@@ -1,8 +1,8 @@
-$colores: (primary-color:#640506, color-servicios:#b1402f, color-programas:#2563bc, color-white:#ffffff, color-black:#000000, menu-item:#bebebe, color-nosotros:#363535, color-footer:#262425);
-$size:650px;
-$size2:875px;
-$size3:1024px;
-$size4:1600px;
+$colores: (primary-color:#640506, color-servicios:#b1402f, color-programas:#2563bc, color-white:#ffffff, color-black:#000000, menu-item:#bebebe, color-nosotros:#363535, nosotros-color:#682b2b, color-mision:#929191, color-footer:#262425);
+$device:650px;
+$device2:875px;
+$device3:1024px;
+$device4:1600px;
 @mixin responsive($sz) {
     @media screen and (min-width:#{$sz}) {
         @content;

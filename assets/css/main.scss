@@ -14,7 +14,7 @@ body {
         opacity: 0.5;
     }
     .text-info-img {
-        color: $primary-color;
+        color: color(primary-color);
         position: absolute;
         top: 19%;
         margin: 10px;
@@ -22,6 +22,7 @@ body {
     @import 'nosotros';
     @import 'servicios';
     @import 'programas';
+    @import 'catalogo';
     @import 'contacto';
 }
 

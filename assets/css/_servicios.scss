@@ -54,4 +54,63 @@
             grid-area: comunicaciones;
         }
     }
+    .servicios-complete {
+        padding-bottom: 20px;
+        ul {
+            list-style: none;
+            li {
+                color: color(color-white);
+                margin: 5px 0;
+            }
+        }
+    }
+}
+
+.administracion-servicios {
+    background: color(color-white);
+    width: 100%;
+    color: color(color-black);
+    padding: 20px;
+    h2 {
+        text-align: center;
+        font-size: 25px;
+    }
+    section {
+        ul {
+            list-style: none;
+            li {
+                margin: 5px 0;
+            }
+        }
+    }
+}
+
+.fulfillment {
+    background: color(color-mision);
+    width: 100%;
+    padding: 20px;
+    color: color(color-white);
+    h2 {
+        text-align: center;
+        font-size: 25px;
+    }
+    section {
+        ul {
+            list-style: none;
+            li {
+                margin: 5px 0;
+            }
+        }
+    }
+}
+
+.comunicaciones {
+    background: color(color-white);
+    width: 100%;
+    padding: 20px;
+    color: color(color-black);
+    h2 {
+        text-align: center;
+        font-size: 25px;
+    }
 }

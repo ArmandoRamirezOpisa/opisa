@@ -169,7 +169,7 @@ header nav .hide-mobile {
 }
 
 .main .nosotros-info-text {
-  color: #fff;
+  color: #ffffff;
   font-size: 20px;
   text-align: center;
   padding-top: 10px;
@@ -192,7 +192,7 @@ header nav .hide-mobile {
 }
 
 .main .nosotros-info .nosotros-opciones .nosotros-menu a {
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -239,6 +239,102 @@ header nav .hide-mobile {
   grid-area: valores;
 }
 
+.main .quienes-somos {
+  background: #682b2b;
+  padding-bottom: 20px;
+}
+
+.main .que-hacemos {
+  background: #ffffff;
+  width: 100%;
+  color: #000000;
+}
+
+.main .que-hacemos H2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.main .que-hacemos section {
+  margin: 0 10px;
+}
+
+.main .mision {
+  background: #929191;
+  width: 100%;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  /*padding: 0 5px;*/
+}
+
+.main .mision h2 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.main .mision p {
+  margin: 0 10px;
+}
+
+.main .vision {
+  background: #ffffff;
+  width: 100%;
+  color: #000000;
+}
+
+.main .vision h2 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.main .vision section {
+  margin: 0 10px;
+}
+
+.main .organizacion {
+  background: #929191;
+  color: #ffffff;
+  width: 100%;
+  padding: 20px;
+}
+
+.main .organizacion h2 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.main .valores {
+  background: #ffffff;
+  width: 100%;
+  padding: 20px;
+}
+
+.main .valores h2 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.main .valores ul {
+  list-style: none;
+}
+
+.main .valores ul li {
+  margin: 5px 0;
+}
+
+.main .experiencia {
+  background: #929191;
+  color: #ffffff;
+  width: 100%;
+  padding: 20px;
+}
+
+.main .experiencia h2 {
+  text-align: center;
+  font-size: 25px;
+}
+
 .main .servicios-data {
   position: relative;
   width: 100%;
@@ -276,7 +372,7 @@ header nav .hide-mobile {
   width: 0px;
   height: 0px;
   display: inline-block;
-  border-top: 15px solid #fff;
+  border-top: 15px solid #ffffff;
   border-right: 15px solid #b1402f;
   border-bottom: 15px solid #b1402f;
   border-left: 15px solid #b1402f;
@@ -298,7 +394,7 @@ header nav .hide-mobile {
 }
 
 .main .serivicios-info .servicios-opciones .servicios-menu a {
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -325,6 +421,71 @@ header nav .hide-mobile {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   grid-area: comunicaciones;
+}
+
+.main .serivicios-info .servicios-complete {
+  padding-bottom: 20px;
+}
+
+.main .serivicios-info .servicios-complete ul {
+  list-style: none;
+}
+
+.main .serivicios-info .servicios-complete ul li {
+  color: #ffffff;
+  margin: 5px 0;
+}
+
+.main .administracion-servicios {
+  background: #ffffff;
+  width: 100%;
+  color: #000000;
+  padding: 20px;
+}
+
+.main .administracion-servicios h2 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.main .administracion-servicios section ul {
+  list-style: none;
+}
+
+.main .administracion-servicios section ul li {
+  margin: 5px 0;
+}
+
+.main .fulfillment {
+  background: #929191;
+  width: 100%;
+  padding: 20px;
+  color: #ffffff;
+}
+
+.main .fulfillment h2 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.main .fulfillment section ul {
+  list-style: none;
+}
+
+.main .fulfillment section ul li {
+  margin: 5px 0;
+}
+
+.main .comunicaciones {
+  background: #ffffff;
+  width: 100%;
+  padding: 20px;
+  color: #000000;
+}
+
+.main .comunicaciones h2 {
+  text-align: center;
+  font-size: 25px;
 }
 
 .main .programas-data {
@@ -364,7 +525,7 @@ header nav .hide-mobile {
   width: 0px;
   height: 0px;
   display: inline-block;
-  border-top: 15px solid #fff;
+  border-top: 15px solid #ffffff;
   border-right: 15px solid #2563bc;
   border-bottom: 15px solid #2563bc;
   border-left: 15px solid #2563bc;
@@ -386,7 +547,7 @@ header nav .hide-mobile {
 }
 
 .main .programas-info .programas-opciones .programas-menu a {
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -421,8 +582,106 @@ header nav .hide-mobile {
   grid-area: fuerza;
 }
 
+.main .programas-admin {
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+
+.main .programas-admin .programas-admin-info-text {
+  padding-top: 30px;
+}
+
+.main .programas-admin section {
+  margin: 10px;
+}
+
+.main .programas-admin section ul {
+  list-style: none;
+}
+
+.main .programas-admin section ul li {
+  margin: 5px 0;
+}
+
+.main .fidelizacion {
+  background: #ffffff;
+  color: #000000;
+  width: 100%;
+  padding: 20px;
+}
+
+.main .fidelizacion h2 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.main .fidelizacion section ul {
+  list-style: none;
+}
+
+.main .fidelizacion section ul li {
+  margin: 5px 0;
+}
+
+.main .productividad {
+  background: #929191;
+  width: 100%;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.main .productividad h2 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.main .productividad section ul {
+  list-style: none;
+}
+
+.main .productividad section ul li {
+  margin: 5px 0;
+}
+
+.main .fuerza-ventas {
+  background: #ffffff;
+  color: #000000;
+  width: 100%;
+  padding: 20px;
+}
+
+.main .fuerza-ventas h2 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.main .fuerza-ventas section ul {
+  list-style: none;
+}
+
+.main .fuerza-ventas section ul li {
+  margin: 5px 0;
+}
+
+.main .catalogo {
+  background: #682b2b;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.main .catalogo h2 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.main .catalogo-img .catalogo-imagen {
+  position: relative;
+  width: 100%;
+  margin: 30px 0;
+}
+
 .main .contacto {
-  background: #fff;
+  background: #ffffff;
 }
 
 .main .contacto h2 {
@@ -478,7 +737,7 @@ header nav .hide-mobile {
   background: #640506;
   border: #363535 1px solid;
   border-radius: 5px;
-  color: #fff;
+  color: #ffffff;
 }
 
 .main .contacto .contacto-info .contacto-form form .btn-primary:hover {
@@ -495,6 +754,6 @@ header nav .hide-mobile {
 }
 
 .footer span {
-  color: #fff;
+  color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */
