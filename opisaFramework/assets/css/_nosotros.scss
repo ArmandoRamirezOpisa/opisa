@@ -1,0 +1,138 @@
+.nosotros-info {
+    background: color(color-nosotros);
+    position: relative;
+    &:before {
+        @include circleSection;
+    }
+    &-text {
+        color: color(color-white);
+        font-size: 20px;
+        text-align: center;
+        padding-top: 10px;
+        .text-info {
+            margin: 0 10px;
+        }
+    }
+    .nosotros-opciones {
+        @include systemGrid;
+        grid-template-areas: 'quienes' 'hacemos' 'mision' 'vision' 'organizacion' 'valores';
+        .nosotros-menu {
+            a {
+                color: color(color-white);
+                text-decoration: none;
+                &:hover {
+                    color: color(primary-color);
+                    transition: all 1s ease-in-out;
+                    font-size: 20px;
+                }
+            }
+        }
+        .nosotros-quienes {
+            grid-area: quienes;
+        }
+        .nosotros-hacemos {
+            grid-area: hacemos;
+        }
+        .nosotros-mision {
+            grid-area: mision;
+        }
+        .nosotros-vision {
+            grid-area: vision;
+        }
+        .nosotros-organizacion {
+            grid-area: organizacion;
+        }
+        .nosotros-valores {
+            grid-area: valores;
+        }
+    }
+}
+
+.quienes-somos {
+    background: color(nosotros-color);
+    padding-bottom: 20px;
+}
+
+.que-hacemos {
+    background: color(color-white);
+    width: 100%;
+    color: color(color-black);
+    H2 {
+        text-align: center;
+        font-size: 30px;
+    }
+    section {
+        margin: 0 10px;
+    }
+}
+
+.fulfillment {
+    background: color(color-white);
+}
+
+.mision {
+    background: color(color-mision);
+    width: 100%;
+    color: color(color-white);
+    padding-top: 10px;
+    padding-bottom: 15px;
+    /*padding: 0 5px;*/
+    h2 {
+        text-align: center;
+        font-size: 25px;
+    }
+    p {
+        margin: 0 10px;
+    }
+}
+
+.vision {
+    background: color(color-white);
+    width: 100%;
+    color: color(color-black);
+    h2 {
+        text-align: center;
+        font-size: 25px;
+    }
+    section {
+        margin: 0 10px;
+    }
+}
+
+.organizacion {
+    background: color(color-mision);
+    color: color(color-white);
+    width: 100%;
+    padding: 20px;
+    h2 {
+        text-align: center;
+        font-size: 25px;
+    }
+}
+
+.valores {
+    background: color(color-white);
+    width: 100%;
+    padding: 20px;
+    h2 {
+        text-align: center;
+        font-size: 25px
+    }
+    ul {
+        list-style: none;
+        li {
+            margin: 5px 0;
+        }
+    }
+}
+
+.experiencia {
+    background: color(color-mision);
+    color: color(color-white);
+    width: 100%;
+    padding: 20px;
+    h2 {
+        text-align: center;
+        font-size: 25px;
+    }
+}

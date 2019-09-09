@@ -1,0 +1,53 @@
+$colores: (primary-color:#640506, color-servicios:#b1402f, color-programas:#2563bc, color-white:#ffffff, color-black:#000000, menu-item:#bebebe, color-nosotros:#363535, nosotros-color:#682b2b, color-mision:#929191, color-footer:#262425);
+$device:600px;
+$device2:800px;
+$device3:1024px;
+$device4:1600px;
+@mixin responsiveDevice($sizeDevice) {
+    @media screen and (min-width:#{$sizeDevice}) {
+        @content;
+    }
+}
+
+@mixin circleSection {
+    content: '';
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    display: inline-block;
+    position: absolute;
+    top: -20px;
+    right: 0;
+    z-index: 3;
+    border-radius: 50%;
+    border-bottom: #363535 1px solid;
+}
+
+@mixin systemGrid {
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+@function color($color) {
+    @return map-get($colores, $color);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@keyframes animated {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}

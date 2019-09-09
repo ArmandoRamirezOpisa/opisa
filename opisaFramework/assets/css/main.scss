@@ -1,0 +1,30 @@
+@import 'config';
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@import 'menu';
+.main {
+    margin-top: 110px;
+    .img-responsive {
+        position: relative;
+        width: 100%;
+        opacity: 0.5;
+    }
+    .text-info-img {
+        color: color(primary-color);
+        position: absolute;
+        top: 19%;
+        margin: 10px;
+    }
+    @import 'nosotros';
+    @import 'servicios';
+    @import 'programas';
+    @import 'catalogo';
+    @import 'contacto';
+}
+
+@import 'footer';
+@import 'mobile';
