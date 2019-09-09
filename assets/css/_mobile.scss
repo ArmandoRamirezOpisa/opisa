@@ -7,17 +7,178 @@ La pagina fue programa como mobile first
 
 /* Este media query es para los dispositivos mas pequenos */
 
-@include responsiveDevice($device) {}
+@include responsiveDevice($device) {
+    .main {
+        .text-info-img {
+            font-size: 20px;
+            top: 22%;
+        }
+        .serivicios-info {
+            &:before {
+                right: 47.5%;
+            }
+        }
+        .programas-info {
+            &:before {
+                right: 47.5%;
+            }
+        }
+    }
+}
 
 
 /* Este media query es para los dispositivos de 875 px para arriba */
 
-@include responsiveDevice($device2) {}
+@include responsiveDevice($device2) {
+    .main {
+        .text-info-img {
+            font-size: 25px;
+            top: 22%;
+        }
+        .nosotros-info {
+            .nosotros-opciones {
+                grid-template-columns: repeat(2, 1fr) !important;
+                grid-gap: 20px !important;
+                grid-template-areas: 'quienes hacemos' 'mision vision' 'organizacion valores';
+            }
+        }
+        .serivicios-info {
+            &:before {
+                right: 48%;
+            }
+            .servicios-opciones {
+                grid-template-columns: repeat(2, 1fr) !important;
+                grid-gap: 20px !important;
+                grid-template-areas: 'administracion fulfillment' 'comunicaciones comunicaciones';
+            }
+        }
+        .programas-info {
+            &:before {
+                right: 48%;
+            }
+            .programas-opciones {
+                grid-template-columns: repeat(2, 1fr) !important;
+                grid-gap: 20px !important;
+                grid-template-areas: 'mercado consumidor' 'productividad fuerza';
+            }
+        }
+        .contacto-form {
+            form {
+                grid-template-columns: 1fr 1fr !important;
+                grid-template-areas: 'nombre correo' 'telefono empresa' 'mensaje mensaje' 'btn btn';
+                .input-text {
+                    width: 200px;
+                    &:nth-child(1) {
+                        grid-area: nombre;
+                    }
+                    &:nth-child(2) {
+                        grid-area: correo;
+                    }
+                    &:nth-child(3) {
+                        grid-area: telefono;
+                    }
+                    &:nth-child(4) {
+                        grid-area: empresa;
+                    }
+                    &:nth-child(5) {
+                        grid-area: mensaje;
+                        width: 95% !important;
+                    }
+                }
+                .btn {
+                    grid-area: btn;
+                    width: 95% !important;
+                    margin-left: 10px !important;
+                }
+            }
+        }
+    }
+}
 
 
 /* Este media query es para los dispositivos como una laptop */
 
-@include responsiveDevice($device3) {}
+@include responsiveDevice($device3) {
+    header.headerMenu {
+        grid-template-columns: 30% 1fr;
+        nav {
+            a.line-menu {
+                display: none !important;
+            }
+            #nav {
+                display: inline-block;
+                background: color(color-white) !important;
+                padding: 0;
+                position: static;
+                margin-top: 50px;
+                margin-left: 50px;
+                margin-bottom: 0;
+                height: 50px;
+                .nav-item {
+                    position: static;
+                    display: inline;
+                    a {
+                        color: color(color-black) !important;
+                        &:hover {
+                            background: none;
+                            padding: 0;
+                            border-radius: 5px;
+                            transition: all 0.5s ease-out;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .text-info-img {
+        font-size: 40px !important;
+        top: 30% !important;
+        margin: 10px 20px !important;
+        width: 50%;
+    }
+    .nosotros-info {
+        padding-bottom: 20px;
+        .nosotros-opciones {
+            grid-template-columns: repeat(3, 1fr) !important;
+            grid-gap: 20px !important;
+            grid-template-areas: 'quienes hacemos mision' 'vision organizacion valores';
+        }
+    }
+    .serivicios-info {
+        padding-bottom: 20px;
+        &:before {
+            right: 48.5% !important;
+        }
+        .servicios-opciones {
+            grid-template-columns: repeat(3, 1fr) !important;
+            grid-gap: 20px !important;
+            grid-template-areas: 'administracion fulfillment comunicaciones';
+        }
+    }
+    .programas-info {
+        padding-bottom: 20px;
+        &:before {
+            right: 48.5% !important;
+        }
+        .programas-opciones {
+            grid-template-columns: repeat(2, 1fr) !important;
+            grid-gap: 20px !important;
+            grid-template-areas: 'mercado consumidor' 'productividad fuerza';
+        }
+    }
+    .contacto {
+        .contacto-info {
+            grid-template-columns: repeat(2, 1fr) !important;
+            grid-template-areas: 'location formulario' 'location formulario' !important;
+        }
+    }
+    .texto-nosotros-info {
+        font-size: 25px !important;
+    }
+    .texto-programas-info {
+        font-size: 30px !important;
+    }
+}
 
 
 /* Este media query es para los dispositivos como las smart tv */

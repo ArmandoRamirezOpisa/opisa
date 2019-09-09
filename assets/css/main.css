@@ -259,6 +259,10 @@ header nav .hide-mobile {
   margin: 0 10px;
 }
 
+.main .fulfillment {
+  background: #ffffff;
+}
+
 .main .mision {
   background: #929191;
   width: 100%;
@@ -460,6 +464,7 @@ header nav .hide-mobile {
   background: #929191;
   width: 100%;
   padding: 20px;
+  margin: 0;
   color: #ffffff;
 }
 
@@ -714,6 +719,13 @@ header nav .hide-mobile {
   grid-area: formulario;
 }
 
+.main .contacto .contacto-info .contacto-form form {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
 .main .contacto .contacto-info .contacto-form form .input-text {
   border-radius: 5px;
   border: #363535 3px solid;
@@ -730,7 +742,7 @@ header nav .hide-mobile {
 .main .contacto .contacto-info .contacto-form form .btn {
   border: none;
   padding: 10px;
-  width: 100%;
+  width: 95%;
 }
 
 .main .contacto .contacto-info .contacto-form form .btn-primary {
@@ -763,8 +775,179 @@ sea Responsive.
 La pagina fue programa como mobile first
 */
 /* Este media query es para los dispositivos mas pequenos */
+@media screen and (min-width: 600px) {
+  .main .text-info-img {
+    font-size: 20px;
+    top: 22%;
+  }
+  .main .serivicios-info:before {
+    right: 47.5%;
+  }
+  .main .programas-info:before {
+    right: 47.5%;
+  }
+}
+
 /* Este media query es para los dispositivos de 875 px para arriba */
+@media screen and (min-width: 800px) {
+  .main .text-info-img {
+    font-size: 25px;
+    top: 22%;
+  }
+  .main .nosotros-info .nosotros-opciones {
+    -ms-grid-columns: (1fr)[2] !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+    grid-gap: 20px !important;
+        grid-template-areas: 'quienes hacemos' 'mision vision' 'organizacion valores';
+  }
+  .main .serivicios-info:before {
+    right: 48%;
+  }
+  .main .serivicios-info .servicios-opciones {
+    -ms-grid-columns: (1fr)[2] !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+    grid-gap: 20px !important;
+        grid-template-areas: 'administracion fulfillment' 'comunicaciones comunicaciones';
+  }
+  .main .programas-info:before {
+    right: 48%;
+  }
+  .main .programas-info .programas-opciones {
+    -ms-grid-columns: (1fr)[2] !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+    grid-gap: 20px !important;
+        grid-template-areas: 'mercado consumidor' 'productividad fuerza';
+  }
+  .main .contacto-form form {
+    -ms-grid-columns: 1fr 1fr !important;
+        grid-template-columns: 1fr 1fr !important;
+        grid-template-areas: 'nombre correo' 'telefono empresa' 'mensaje mensaje' 'btn btn';
+  }
+  .main .contacto-form form .input-text {
+    width: 200px;
+  }
+  .main .contacto-form form .input-text:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: nombre;
+  }
+  .main .contacto-form form .input-text:nth-child(2) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: correo;
+  }
+  .main .contacto-form form .input-text:nth-child(3) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: telefono;
+  }
+  .main .contacto-form form .input-text:nth-child(4) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+    grid-area: empresa;
+  }
+  .main .contacto-form form .input-text:nth-child(5) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: mensaje;
+    width: 95% !important;
+  }
+  .main .contacto-form form .btn {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: btn;
+    width: 95% !important;
+    margin-left: 10px !important;
+  }
+}
+
 /* Este media query es para los dispositivos como una laptop */
+@media screen and (min-width: 1024px) {
+  header.headerMenu {
+    -ms-grid-columns: 30% 1fr;
+        grid-template-columns: 30% 1fr;
+  }
+  header.headerMenu nav a.line-menu {
+    display: none !important;
+  }
+  header.headerMenu nav #nav {
+    display: inline-block;
+    background: #ffffff !important;
+    padding: 0;
+    position: static;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 0;
+    height: 50px;
+  }
+  header.headerMenu nav #nav .nav-item {
+    position: static;
+    display: inline;
+  }
+  header.headerMenu nav #nav .nav-item a {
+    color: #000000 !important;
+  }
+  header.headerMenu nav #nav .nav-item a:hover {
+    background: none;
+    padding: 0;
+    border-radius: 5px;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+  }
+  .text-info-img {
+    font-size: 40px !important;
+    top: 30% !important;
+    margin: 10px 20px !important;
+    width: 50%;
+  }
+  .nosotros-info {
+    padding-bottom: 20px;
+  }
+  .nosotros-info .nosotros-opciones {
+    -ms-grid-columns: (1fr)[3] !important;
+        grid-template-columns: repeat(3, 1fr) !important;
+    grid-gap: 20px !important;
+        grid-template-areas: 'quienes hacemos mision' 'vision organizacion valores';
+  }
+  .serivicios-info {
+    padding-bottom: 20px;
+  }
+  .serivicios-info:before {
+    right: 48.5% !important;
+  }
+  .serivicios-info .servicios-opciones {
+    -ms-grid-columns: (1fr)[3] !important;
+        grid-template-columns: repeat(3, 1fr) !important;
+    grid-gap: 20px !important;
+        grid-template-areas: 'administracion fulfillment comunicaciones';
+  }
+  .programas-info {
+    padding-bottom: 20px;
+  }
+  .programas-info:before {
+    right: 48.5% !important;
+  }
+  .programas-info .programas-opciones {
+    -ms-grid-columns: (1fr)[2] !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+    grid-gap: 20px !important;
+        grid-template-areas: 'mercado consumidor' 'productividad fuerza';
+  }
+  .contacto .contacto-info {
+    -ms-grid-columns: (1fr)[2] !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        grid-template-areas: 'location formulario' 'location formulario' !important;
+  }
+  .texto-nosotros-info {
+    font-size: 25px !important;
+  }
+  .texto-programas-info {
+    font-size: 30px !important;
+  }
+}
+
 /* Este media query es para los dispositivos como las smart tv */
 /*
 Ya termino todos los medias querys para que la pagina se pueda adaptar en todos
