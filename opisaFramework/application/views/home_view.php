@@ -3,7 +3,7 @@
         <div class="nosotros-data">
             <img src="assets/img/nosotros.jpg" alt="Nosotros" class="img-responsive nosotros-img">
             <p class="text-info-img">
-                Hacemos que las cosas sucedan, somos lideres y pioneros en el negocio de la motivación en México.
+                Hacemos que las cosas sucedan, somos líderes y pioneros en el negocio de la motivación en México.
             </p>
         </div>
         <div class="nosotros-info">
