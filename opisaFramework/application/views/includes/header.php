@@ -1,17 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="content-language" content="es-mx" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Programas de incentivos">
-    <meta name="keywords" content="incentivos,Premios,Programas">
-    <meta name="author" content="Opisa 2019">
+    <title>Operadora de Programa de Incentivos</title>
+    <meta name="apple-mobile-web-app-title" content="OPISA" />
+    <meta name="description" content="Somos l&iacute;deres y pioneros en el negocio de la motivaci&oacute;n en M&eacute;xico." />
+    <meta name="keywords" content="lealtad,Premios,Programas,reconocimiento">
+    <link rel="canonical" href="www.opisa.com" />
+    <link rel="alternate" hreflang="es-mx" href="www.opisa.com" />
+    <meta name="author" content="Operadora de Programa de Incentivos">
+    <meta property="og:description" content="Somos una empresa 100% M&eacute;xicana especialidad en desarrollar programas de lealtad." />
     <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="assets/lib/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
-    <title>OPI</title>
 </head>
 
 <body>
