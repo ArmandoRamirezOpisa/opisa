@@ -52,7 +52,7 @@
             </p>
         </div>
         <div class="catalogo-img">
-            <img src="../assets/img/catalogo-reconocelo.JPG" alt="" class="catalogo-imagen">
+            <img src="../assets/img/catalogo-reconocelo.PNG" alt="" class="catalogo-imagen">
         </div>
     </div>
     <footer class="footer">
