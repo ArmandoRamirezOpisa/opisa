@@ -11,6 +11,14 @@
     <link rel="shortcut icon" href="../assets/img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="../assets/lib/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="../assets/css/main.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168470096-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-168470096-1');
+        </script>
     <title>OPI</title>
 </head>
 
