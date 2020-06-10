@@ -668,6 +668,44 @@ header nav .hide-mobile {
   margin: 5px 0;
 }
 
+.main nav.navCatalogo .line-menu .menu-btn {
+  position: absolute;
+  z-index: 210;
+  right: 50px;
+  top: 50px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.main nav.navCatalogo .line-menu .menu-btn .btn-line {
+  width: 28px;
+  height: 3px;
+  margin: 0 0 5px 0;
+  background: #000000;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.main nav.navCatalogo .line-menu .menu-btn.close {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.main nav.navCatalogo .line-menu .menu-btn.close .btn-line:nth-child(1) {
+  -webkit-transform: rotate(45deg) translate(5px, 5px);
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.main nav.navCatalogo .line-menu .menu-btn.close .btn-line:nth-child(2) {
+  opacity: 0;
+}
+
+.main nav.navCatalogo .line-menu .menu-btn.close .btn-line:nth-child(3) {
+  -webkit-transform: rotate(-45deg) translate(7px, -6px);
+  transform: rotate(-45deg) translate(7px, -6px);
+}
+
 .main .catalogo {
   background: #682b2b;
   color: #ffffff;
@@ -683,6 +721,18 @@ header nav .hide-mobile {
   position: relative;
   width: 100%;
   margin: 30px 0;
+}
+
+.main .catalogo-img .titulo {
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 40px;
+  color: #000000;
+}
+
+.main .catalogo-img .carousel .carousel-item {
+  width: 400px !important;
+  height: 400px !important;
 }
 
 .main .contacto {

@@ -10,6 +10,7 @@
     <meta name="author" content="Opisa 2019">
     <link rel="shortcut icon" href="../assets/img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="../assets/lib/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/materialize.css">
     <link rel="stylesheet" href="../assets/css/main.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168470096-1"></script>
@@ -52,16 +53,41 @@
             </p>
         </div>
         <div class="catalogo-img">
-            <img src="../assets/img/catalogo-reconocelo.PNG" alt="" class="catalogo-imagen">
+            <div class="col xl12 xl12">
+                <div class="carousel">
+                    <div class="carousel-item">
+                        <img src="../assets/img/carrusel/01-reconocelo.PNG" alt="Catalogo 01" class="catalogo-imagen">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../assets/img/carrusel/02-reconocelo.PNG" alt="Catalogo 02" class="catalogo-imagen">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../assets/img/carrusel/03-reconocelo.PNG" alt="Catalogo 03" class="catalogo-imagen">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../assets/img/carrusel/04-reconocelo.PNG" alt="Catalogo 04" class="catalogo-imagen">
+                    </div>
+                </div>
+            </div>
+            <!--<img src="../assets/img/catalogo-reconocelo.JPG" alt="" class="catalogo-imagen">-->
         </div>
     </div>
     <footer class="footer">
-        <span>Copyright &copy; 2019 OPISA</span>
+        <span>Copyright &copy; 2020 OPISA</span>
         <hr>
         <span>Todos los derechos reservados</span>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="../assets/js/materialize.js"></script>
     <script src="../assets/js/main.js "></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+        const elementosCarrusel = document.querySelectorAll('.carousel');
+        M.Carousel.init(elementosCarrusel, {
+            duration: 150
+        });
+});
+    </script>
 </body>
 
 </html>

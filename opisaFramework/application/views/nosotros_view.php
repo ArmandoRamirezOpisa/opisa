@@ -120,7 +120,7 @@
         </div>
     </div>
     <footer class="footer">
-        <span>Copyright &copy; 2019 OPISA</span>
+        <span>Copyright &copy; 2020 OPISA</span>
         <hr>
         <span>Todos los derechos reservados</span>
     </footer>
