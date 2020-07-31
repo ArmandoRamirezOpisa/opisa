@@ -1,0 +1,72 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 114px;
+}
+
+.nav>li>a {
+
+}
+
+
+.navbar {
+    min-height: 114px;
+    margin-bottom: 0;
+    background: #fff;
+    -moz-transition   : all 0.3s ease-out;  /* FF4+ */
+    -o-transition     : all 0.3s ease-out;  /* Opera 10.5+ */
+    -webkit-transition: all 0.3s ease-out;  /* Saf3.2+, Chrome */
+    -ms-transition    : all 0.3s ease-out;  /* IE10 */
+    transition        : all 0.3s ease-out;
+}
+
+    .navbar-brand {
+        -moz-transition   : all 0.3s ease-out;  /* FF4+ */
+        -o-transition     : all 0.3s ease-out;  /* Opera 10.5+ */
+        -webkit-transition: all 0.3s ease-out;  /* Saf3.2+, Chrome */
+        -ms-transition    : all 0.3s ease-out;  /* IE10 */
+        transition        : all 0.3s ease-out;
+    }
+
+        .navbar-brand img {
+            height: 80px;
+        }
+
+    .navbar-nav {
+        margin-top: 0;
+        -moz-transition   : all 0.3s ease-out;  /* FF4+ */
+        -o-transition     : all 0.3s ease-out;  /* Opera 10.5+ */
+        -webkit-transition: all 0.3s ease-out;  /* Saf3.2+, Chrome */
+        -ms-transition    : all 0.3s ease-out;  /* IE10 */
+        transition        : all 0.3s ease-out;
+    }
+
+        .nav>li>a {
+            margin: 0 25px;
+            padding: 0;
+            padding-bottom: 5px;
+            font-weight: 600;
+            font-size: 20px;
+            color: #454344;
+        }
+
+            .nav>li>a:focus,
+            .nav>li>a:hover,
+            .nav>li.active>a {
+                border-bottom: 3px solid #682b2b;
+                background: none;
+            }
+
+.carousel-control.right,
+.carousel-control.left {
+    z-index: 100;
+}
+
+.form-control {
+    border-radius: 0;
+    height: 38px;
+    border: 2px solid #363535;
+}
+
+    .form-control::-webkit-input-placeholder {
+        color: #363535;
+    }

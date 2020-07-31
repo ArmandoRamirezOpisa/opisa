@@ -1,0 +1,54 @@
+36	1	1	1	Heinz	Ketchup SS Mex CJ 1,000 pz 9G	0|
+36	1	1	2	Heinz	Ketchup SS Mex CJ 200 pz 9G	0|
+36	1	1	3	Heinz	Ketchup RoomService Eng Label	0|
+36	1	1	5	Heinz	Ketchup Heinz Bot Mx 16/14Oz	0|
+36	1	1	9	HEINZ	Ketchup Heinz Dpack Mx 24/397G	0|
+36	1	1	10	HEINZ	Ketchup Lata	0|
+36	1	1	11	HEINZ	Ketchup Heinz Pouch 6/3KG	0|
+36	1	1	12	HEINZ	Ketchup Vol-pak 3 Gal	0|
+36	1	1	13	HEINZ	Ketchup Heinz Bot Mx 12/40Oz	0|
+36	1	1	17	HEINZ	Salsa Catsup Abal 1000/8G	0|
+36	1	1	18	HEINZ	Salsa Catsup Constant 1000/8GR	0|
+36	1	1	20	Heinz	Tabasco Chipotle 60 ml	0|
+36	1	2	2	HEINZ	12524	0|
+36	1	2	4	HEINZ	Salsa Tabasco Roja 24/60ml	0|
+36	1	2	5	HEINZ	Salsa Tabasco Roja 4/3.8 lts	0|
+36	1	2	7	HEINZ	Worcestershire Vidrio 5 oz	0|
+36	1	2	8	HEINZ	TABASCO RED PEPPER SC 12/12OZ	0|
+36	1	3	1	HEINZ	Mostaza Heinz 500/5G	0|
+36	1	3	2	HEINZ	Mustard FS Yellow plast 9 oz	0|
+36	1	3	3	HEINZ	Mustard Vol-Pak Yellow 3 Gal	0|
+36	1	3	4	HEINZ	Mustard Room Service Dijon 2 Oz	0|
+36	1	4	1	HEINZ	Mayonesa Real Heinz 500/12g	0|
+36	1	4	2	HEINZ	Aderezo mayonesa Heinz 500/8g	0|
+36	1	4	3	HEINZ	Aderezo Italiano 100/28g	0|
+36	1	4	4	HEINZ	Aderezo Mil Islas 100/28g	0|
+36	1	4	5	HEINZ	Aderezo Cesar 100/28g	0|
+36	1	4	6	HEINZ	Aderezo Mayonesa Abal 500/8g	0|
+36	1	4	7	HEINZ	Mayo RoomService 1.8 oz	0|
+36	1	4	10	HEINZ	MAYONESA HEINZ BOTELLA 24/390g	0|
+36	1	5	1	HEINZ	Miel Abeja Heinz 240/20g	0|
+36	1	5	2	HEINZ	Jarabe Maple Heinz 144/30g	0|
+36	1	5	3	HEINZ	Mermelada de fresa Heinz 240/20g	0|
+36	1	5	4	HEINZ	MIEL DE ABEJA HEINZ 120/20G	0|
+36	1	6	1	HEINZ	Chile quebrado Heinz 400/1G	0|
+36	1	6	2	HEINZ	Sal en Sobre 3000/1G	0|
+36	1	7	1	HEINZ	Pepinillos dulces 1 x 12 pz	0|
+36	1	8	1	HEINZ	Vinegar Wine Plastico 1 gal	0|
+36	1	8	3	HEINZ	Salsa Inglesa Heinz 400/8g	0|
+36	1	8	4	HEINZ	Worcestershire Plastico 1 gal	0|
+36	1	8	5	HEINZ	LP Worcestershire Sauce 5 oz x 12	0|
+36	1	8	6	HEINZ	LP Worcestershire Sauce 10 oz x 12	0|
+36	1	8	7	HEINZ	BBQ Sauce Regular 1 Gal	0|
+36	1	8	8	HEINZ	Salsa barbeque Abal Gal 4 / 4KG	0|
+36	1	9	1	HEINZ	HEINZ WBF DP MANZAN MX 24/113G	0|
+36	1	9	2	HEINZ	HEINZ WBF DP PERA MX 24/113G	0|
+36	1	9	3	HEINZ	HEINZ WBF DP FTAS MIX 24/113g	0|
+36	1	9	4	HEINZ	HEINZ WBF DP MANGO MX 24/113g	0|
+36	1	9	5	HEINZ	HEINZ WBF DP MANZANA 24/71G	0|
+36	1	9	6	HEINZ	HEINZ WBF DP PERA 24/71G	0|
+36	1	9	7	HEINZ	papilla2	0|
+36	1	10	1	HEINZ	CLASSICO ROASTED GARLIC 15OZ	0|
+999	99999	1	1	MI MARCA DE CAFÉ 1		0|
+999	99999	1	2	MI MARCA DE CAFÉ 2		0|
+999	99999	2	1	MI MARCA DE CEREAL 1		0|

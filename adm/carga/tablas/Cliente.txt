@@ -1,0 +1,4 @@
+41	1	Sandvik de Mexico SA de CV	SME610317TG6	Via Gustavo Baz # 352	La Loma	Tlalnepantla	Edo Mexico	Mexico	54060	54532707	54532707	cynthia.adame@sandvik.com	Cynthia Adame	RH	A|
+41	2	Walter Tools SA de CV	WTO060721J42	Carretera Estatal # 431 El Colorado Galindo K	Parque Tecnologico Innovacion	El Marques	Queretaro	Mexico	76246	54532707	54532707	cynthia.adame@sandvik.com	Cynthia Adame	Rec Laborales	A|
+41	3	Sandvik Mining and Constructi	SMC960216CX9	Calle Benjamin Franklin Lote 8 Mz 1	Parque Industrial Aeropuerto	Tlajumulco de Zuñiga	Jalisco	Mexico	45640	553330031652	553330031652	guillermo.aguirre@sandvik.com	Guillermo Aguire	Human Resources SE	A|
+43	1	Heinz Mexico SA de CV	HME9906015Q2	Periferico Sur # 7980 Ed 3D	Santa Maria Tequetexpan	Tlaquepaque	Jalisco	Mexico	45601	59050870	0	xxxx	Aketzalli Rochin	Mercadotecnia	A|
