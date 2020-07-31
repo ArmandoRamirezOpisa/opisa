@@ -686,6 +686,18 @@ header nav .hide-mobile {
     margin: 30px 0;
 }
 
+.main .catalogo-img .titulo {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 40px;
+    color: #000000;
+}
+
+.main .catalogo-img .carousel .carousel-item {
+    width: 400px !important;
+    height: 400px !important;
+}
+
 .main .contacto {
     background: #ffffff;
 }
@@ -725,27 +737,6 @@ header nav .hide-mobile {
     display: grid;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
-}
-
-.main .contacto .contacto-info .contacto-form #alert {
-    display: none;
-    text-align: center;
-    padding: 10px;
-    border: #363535 1px solid;
-    border-radius: 5px;
-    color: #ffffff;
-    -webkit-animation: animated 1.5s ease-in-out;
-    animation: animated 1.5s ease-in-out;
-}
-
-.main .contacto .contacto-info .contacto-form .alert-primary {
-    background: #640506;
-    color: #ffffff;
-}
-
-.main .contacto .contacto-info .contacto-form .alert-success {
-    background: green;
-    color: #ffffff;
 }
 
 .main .contacto .contacto-info .contacto-form form .input-text {

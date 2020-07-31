@@ -125,12 +125,13 @@
                 <div class="contacto-form">
                     <small id="alert" class="alert-primary">Algo campo que escribiste esta vacio</small>
                     <form>
-                        <input type="text" name="nombrePersona" id="nombrePersona" class="input-text" placeholder="Escribe tu nombre">
-                        <input type="email" name="correoPersona" id="correoPersona" class="input-text" placeholder="Escribe tu correo">
-                        <input type="tel" name="telefonoPersona" id="telefonoPersona" class="input-text" placeholder="Escribe tu telefono">
-                        <input type="text" name="empresaPersona" id="empresaPersona" class="input-text" placeholder="Escribe tu empresa (Opcional)">
-                        <textarea name="mensajePersona" id="mensajePersona" class="input-text" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
+                        <input type="text" name="nombrePersona" id="nombrePersona" class="input-text" placeholder="Nombre *">
+                        <input type="email" name="correoPersona" id="correoPersona" class="input-text" placeholder="Correo *">
+                        <input type="tel" name="telefonoPersona" id="telefonoPersona" class="input-text" placeholder="Telefono *">
+                        <input type="text" name="empresaPersona" id="empresaPersona" class="input-text" placeholder="Empresa (Opcional)">
+                        <textarea name="mensajePersona" id="mensajePersona" class="input-text" cols="30" rows="10" placeholder="Mensaje *"></textarea>
                         <button id="btnEnviarCorreo" type="button" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Enviar</button>
+                        <small id="infoFormularioOpisa" class="form-text text-muted">Los campos que tienen * son obligatorios</small>
                     </form>
                 </div>
             </div>

@@ -1,3 +1,40 @@
+nav.navCatalogo {
+    .line-menu {
+        .menu-btn {
+            position: absolute;
+            z-index: 210;
+            right: 50px;
+            top: 50px;
+            cursor: pointer;
+            -webkit-transition: all 0.5s ease-out;
+            transition: all 0.5s ease-out;
+            .btn-line {
+                width: 28px;
+                height: 3px;
+                margin: 0 0 5px 0;
+                background: color(color-black);
+                -webkit-transition: all 0.5s ease-out;
+                transition: all 0.5s ease-out;
+            }
+            &.close {
+                -webkit-transform: rotate(180deg);
+                transform: rotate(180deg);
+            }
+            &.close .btn-line:nth-child(1) {
+                -webkit-transform: rotate(45deg) translate(5px, 5px);
+                transform: rotate(45deg) translate(5px, 5px);
+            }
+            &.close .btn-line:nth-child(2) {
+                opacity: 0;
+            }
+            &.close .btn-line:nth-child(3) {
+                -webkit-transform: rotate(-45deg) translate(7px, -6px);
+                transform: rotate(-45deg) translate(7px, -6px);
+            }
+        }
+    }
+}
+
 .catalogo {
     background: color(nosotros-color);
     color: color(color-white);
@@ -13,5 +50,15 @@
         position: relative;
         width: 100%;
         margin: 30px 0;
+    }
+    .titulo {
+        font-size: 40px;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 40px;
+        color: color(color-black);
+    }
+    .carousel .carousel-item {
+        width: 400px !important;
+        height: 400px !important;
     }
 }
