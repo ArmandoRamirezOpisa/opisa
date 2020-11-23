@@ -1,7 +1,0 @@
-
-RewriteEngine on
-
-RewriteCond %{HTTP_HOST} ^sio\-online\.co\.cc$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.sio\-online\.co\.cc$
-RewriteRule ^/?$ "https\:\/\/www\.opisa\.com" [R=301,L]
-

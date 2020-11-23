@@ -1,5 +1,0 @@
-body{text-align:center;font-family:verdana arial;background:#000000;}
-#contenedor{width:500px;height:350px;background:yellow;margin:0 auto 0 auto;}
-#msj_login{width:500px;height:30px;padding:20px 0 0 0;text-align:center;font-size:15px;color:#CA0202;float:left;}
-.impText{text-align:center;font-size:10px;width:200px;height:20px;}
-.boton1{width:200px;height:30px;}

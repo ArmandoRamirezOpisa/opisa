@@ -1,3 +1,0 @@
-229	45	Reg Centro-Sur	|
-227	43	MEXICO	|
-228	44	Reg Unica	|
