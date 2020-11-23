@@ -39,7 +39,7 @@ header {
     background: #ffffff;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[2];
+    -ms-grid-columns: (1fr);
     grid-template-columns: repeat(2, 1fr);
     position: fixed;
     top: 0;
@@ -782,16 +782,6 @@ header nav .hide-mobile {
     color: #ffffff;
 }
 
-
-/*
-De este punto, se esta aplicando, medias querys para que la pagina web
-sea Responsive. 
-La pagina fue programa como mobile first
-*/
-
-
-/* Este media query es para los dispositivos mas pequenos */
-
 @media screen and (min-width: 600px) {
     .main .text-info-img {
         font-size: 20px;
@@ -805,16 +795,13 @@ La pagina fue programa como mobile first
     }
 }
 
-
-/* Este media query es para los dispositivos de 875 px para arriba */
-
 @media screen and (min-width: 800px) {
     .main .text-info-img {
         font-size: 25px;
         top: 22%;
     }
     .main .nosotros-info .nosotros-opciones {
-        -ms-grid-columns: (1fr)[2] !important;
+        -ms-grid-columns: (1fr) !important;
         grid-template-columns: repeat(2, 1fr) !important;
         grid-gap: 20px !important;
         grid-template-areas: 'quienes hacemos' 'mision vision' 'organizacion valores';
@@ -823,7 +810,7 @@ La pagina fue programa como mobile first
         right: 48%;
     }
     .main .serivicios-info .servicios-opciones {
-        -ms-grid-columns: (1fr)[2] !important;
+        -ms-grid-columns: (1fr) !important;
         grid-template-columns: repeat(2, 1fr) !important;
         grid-gap: 20px !important;
         grid-template-areas: 'administracion fulfillment' 'comunicaciones comunicaciones';
@@ -832,7 +819,7 @@ La pagina fue programa como mobile first
         right: 48%;
     }
     .main .programas-info .programas-opciones {
-        -ms-grid-columns: (1fr)[2] !important;
+        -ms-grid-columns: (1fr) !important;
         grid-template-columns: repeat(2, 1fr) !important;
         grid-gap: 20px !important;
         grid-template-areas: 'mercado consumidor' 'productividad fuerza';
@@ -882,9 +869,6 @@ La pagina fue programa como mobile first
     }
 }
 
-
-/* Este media query es para los dispositivos como una laptop */
-
 @media screen and (min-width: 1024px) {
     header.headerMenu {
         -ms-grid-columns: 30% 1fr;
@@ -927,7 +911,7 @@ La pagina fue programa como mobile first
         padding-bottom: 20px;
     }
     .nosotros-info .nosotros-opciones {
-        -ms-grid-columns: (1fr)[3] !important;
+        -ms-grid-columns: (1fr) !important;
         grid-template-columns: repeat(3, 1fr) !important;
         grid-gap: 20px !important;
         grid-template-areas: 'quienes hacemos mision' 'vision organizacion valores';
@@ -939,7 +923,7 @@ La pagina fue programa como mobile first
         right: 48.5% !important;
     }
     .serivicios-info .servicios-opciones {
-        -ms-grid-columns: (1fr)[3] !important;
+        -ms-grid-columns: (1fr) !important;
         grid-template-columns: repeat(3, 1fr) !important;
         grid-gap: 20px !important;
         grid-template-areas: 'administracion fulfillment comunicaciones';
@@ -951,13 +935,13 @@ La pagina fue programa como mobile first
         right: 48.5% !important;
     }
     .programas-info .programas-opciones {
-        -ms-grid-columns: (1fr)[2] !important;
+        -ms-grid-columns: (1fr) !important;
         grid-template-columns: repeat(2, 1fr) !important;
         grid-gap: 20px !important;
         grid-template-areas: 'mercado consumidor' 'productividad fuerza';
     }
     .contacto .contacto-info {
-        -ms-grid-columns: (1fr)[2] !important;
+        -ms-grid-columns: (1fr) !important;
         grid-template-columns: repeat(2, 1fr) !important;
         grid-template-areas: 'location formulario' 'location formulario' !important;
     }
@@ -968,15 +952,3 @@ La pagina fue programa como mobile first
         font-size: 30px !important;
     }
 }
-
-
-/* Este media query es para los dispositivos como las smart tv */
-
-
-/*
-Ya termino todos los medias querys para que la pagina se pueda adaptar en todos
-los dispositivos, si borras algo de esto, la pagina va a perder toda la estructura
-*/
-
-
-/*# sourceMappingURL=main.css.map */

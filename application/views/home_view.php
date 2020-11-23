@@ -123,7 +123,7 @@
                     </div>
                 </div>
                 <div class="contacto-form">
-                    <small id="alert" class="alert-primary">Algo campo que escribiste esta vacio</small>
+                    <!-- <small id="alert" class="alert-primary">Algo campo que escribiste esta vacio</small>
                     <form>
                         <input type="text" name="nombrePersona" id="nombrePersona" class="input-text" placeholder="Nombre *">
                         <input type="email" name="correoPersona" id="correoPersona" class="input-text" placeholder="Correo *">
@@ -132,7 +132,11 @@
                         <textarea name="mensajePersona" id="mensajePersona" class="input-text" cols="30" rows="10" placeholder="Mensaje *"></textarea>
                         <button id="btnEnviarCorreo" type="button" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Enviar</button>
                         <small id="infoFormularioOpisa" class="form-text text-muted">Los campos que tienen * son obligatorios</small>
-                    </form>
+                    </form> -->
+                    <div class="">
+                        <i class="fas fa-info-circle"></i>
+                        <span>Si quieres conocer mas sobre nosotros en comunicarte y sera un placer atenderte.</span>
+                    </div>
                 </div>
             </div>
         </div>
